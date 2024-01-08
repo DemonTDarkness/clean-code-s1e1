@@ -4,15 +4,18 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .todo-desc {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .todo-desc img {
   width: 100%;
 }
+
 .todo-desc .more-info {
   font-family: fantasy, cursive;
 }
@@ -44,11 +47,13 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
 
-input,button {
+input,
+button {
   outline: none;
 }
 
