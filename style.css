@@ -5,40 +5,40 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.todo-desc {
+.todo__desc {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.todo-desc img {
+.todo__desc img {
   width: 100%;
 }
 
-.todo-desc .more-info {
+.todo__desc .todo__desc__info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .todo-desc {
+  .todo__desc {
     text-align: center;
   }
 }
 
-.main-page {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
-.task {
+.main__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.main__elem__wrap {
   display: flex;
 }
 
@@ -152,11 +152,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul .edit-mode input[type=text] {
+ul .main__edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul .edit-mode label {
+ul .main__edit-mode label {
   display: none;
 }
